@@ -1,0 +1,19 @@
+Source: boot-conf
+Section: contrib/electronics
+Priority: extra
+Standards-Version: 3.9.8
+Build-Depends: debhelper (>=9), dh-exec
+Maintainer: KUNBUS GmbH <support@kunbus.com>
+Homepage: https://revolution.kunbus.com/
+
+Package: boot-conf
+Architecture: all
+Depends: apt
+Description: Revolution Pi boot configuration files
+ Boot configuration files for Revolution Pi image.
+ Revolution Pi is a set of IoT products based on the Raspberry Pi and
+ geared towards industrial usage.
+ Some configuration files(e.g. config.txt, cmdline.txt) are depended
+ by the Raspberry Pi packages, but they are not debianized.
+ To make the package management coherent in Revolution Pi,  they are
+ debianized in this package.

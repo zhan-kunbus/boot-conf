@@ -1,0 +1,5 @@
+boot-conf (1.0.0) stable; urgency=medium
+
+  * First version from Raspberry Pi image
+
+ -- Zhi Han <z.han@kunbus.com>  Mon, 21 Jun 2021 10:43:15 +0200	
