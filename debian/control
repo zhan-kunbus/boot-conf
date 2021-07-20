@@ -8,7 +8,6 @@ Homepage: https://revolution.kunbus.com/
 
 Package: boot-conf
 Architecture: all
-Depends: apt
 Description: Revolution Pi boot configuration files
  Boot configuration files for Revolution Pi image.
  Revolution Pi is a set of IoT products based on the Raspberry Pi and
